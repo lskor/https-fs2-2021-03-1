@@ -9,8 +9,9 @@ object Dependencies {
 
     val catsEffect       = "3.1.1"
     val catsEffectTest   = "1.1.1"
-    val http4sVersion    = "1.0.0-M23"
-    val fs2              = "3.0.4"
+    val http4sVersion    = "1.0.0-M29"
+    val fs2              = "3.2.0"
+    val slf4j            = "1.7.36"
 
     // Scala (test only)
     val specs2           = "4.10.5"
@@ -27,6 +28,8 @@ object Dependencies {
     "org.typelevel"              %% "cats-effect"          % V.catsEffect,
 
     "co.fs2"                     %% "fs2-io"               % V.fs2,
+
+    "org.slf4j"                  %% "slf4j-simple"         %V.slf4j,
 
     "org.http4s"                 %% "http4s-dsl"           % V.http4sVersion,
     "org.http4s"                 %% "http4s-blaze-server"  % V.http4sVersion,
